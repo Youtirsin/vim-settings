@@ -19,8 +19,8 @@
       { "before": [ "<C-Right>"], "commands": [ ":vertical resize +2" ] },
 
       // navigate buffers
-      { "before": [ "<S-l>"], "commands": [ ":bnext" ] },
-      { "before": [ "<S-h>"], "commands": [ ":bprevious" ] },
+      { "before": [ "<C-l>"], "commands": [ ":bnext" ] },
+      { "before": [ "<C-h>"], "commands": [ ":bprevious" ] },
 
       // quicky
       { "before": [ "<Leader>", "w"], "commands": [ ":w!" ] },
