@@ -18,16 +18,17 @@
       { "before": [ "<C-Left>"], "commands": [ ":vertical resize -2" ] },
       { "before": [ "<C-Right>"], "commands": [ ":vertical resize +2" ] },
 
-      // navigate buffers
+      // navigate tabs
       { "before": [ "<S-l>"], "commands": [ ":bnext" ] },
       { "before": [ "<S-h>"], "commands": [ ":bprevious" ] },
 
       // quicky
-      { "before": [ "<Leader>", "w"], "commands": [ ":w!" ] },
+      { "before": [ "<Leader>", "W"], "commands": [ ":w!" ] },
       { "before": [ "<Leader>", "q"], "commands": [ ":q!" ] },
       { "before": [ "<Leader>", "h"], "commands": [ ":nohl" ] },
   ],
   "vim.handleKeys": {
-      "<C-y>": false
-  }
+      "<C-y>": false,
+      "<C-f>": false,
+  },
 }
