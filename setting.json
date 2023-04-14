@@ -23,7 +23,6 @@
       { "before": [ "<S-h>"], "commands": [ ":bprevious" ] },
 
       // quicky
-      { "before": [ "<Leader>", "W"], "commands": [ ":w!" ] },
       { "before": [ "<Leader>", "q"], "commands": [ ":q!" ] },
       { "before": [ "<Leader>", "h"], "commands": [ ":nohl" ] },
   ],

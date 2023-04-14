@@ -25,10 +25,10 @@ set sidescrolloff=8
 syntax on
 
 " key maps
-" leader key 
+" leader key
 map <space> <Nop>
-let g:mapleader = " "  
-let g:maplocalleader = " "  
+let g:mapleader = " "
+let g:maplocalleader = " "
 
 " better window navigation
 nmap <c-h> <c-w>h
@@ -43,24 +43,11 @@ nmap <c-left> :vertical resize -2<CR>
 nmap <c-right> :vertical resize +2<CR>
 
 " navigate tabs
-nmap <c-l> :tabnext<CR>
-nmap <c-h> :tabprevious<CR>
+nmap <s-l> :tabnext<CR>
+nmap <s-h> :tabprevious<CR>
 
 " quicky
 nmap <leader>e :Explore<CR>
-nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>h :nohl<CR>
 nmap <leader>c :tabclose<CR>
-
-" stay in indent mode
-vmap "<" "<gv"
-vmap ">" ">gv"
-
-" move text up and down
-nmap <a-j> <Esc>:m .+1<CR>
-nmap <a-k> <Esc>:m .-2<CR>
-
-" move text up and down
-vmap <a-j> :m .+1<CR>
-vmap <a-k> :m .-2<CR>
