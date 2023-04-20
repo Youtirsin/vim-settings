@@ -4,7 +4,7 @@ set fileencoding=utf-8
 set encoding=utf-8
 set hlsearch
 set ignorecase
-set mouse=n
+set mouse=a
 set pumheight=10
 set showmode
 set showtabline=2
