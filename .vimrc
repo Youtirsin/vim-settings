@@ -48,6 +48,7 @@ nmap <s-h> :tabprevious<CR>
 
 " quicky
 nmap <leader>e :Explore<CR>
+nmap <c-s> :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>h :nohl<CR>
 nmap <leader>c :tabclose<CR>
