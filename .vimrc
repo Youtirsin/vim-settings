@@ -36,6 +36,11 @@ nmap <c-l> <c-w>l
 nmap <c-j> <c-w>j
 nmap <c-k> <c-w>k
 
+" better window navigation
+nmap <c-w>q :q!<CR>
+nmap <c-w>s :sp<CR>
+nmap <c-w>v :vsp<CR>
+
 " resize with arrows
 nmap <c-up> :resize -2<CR>
 nmap <c-down> :resize +2<CR>
@@ -43,12 +48,12 @@ nmap <c-left> :vertical resize -2<CR>
 nmap <c-right> :vertical resize +2<CR>
 
 " navigate tabs
-nmap <s-l> :tabnext<CR>
-nmap <s-h> :tabprevious<CR>
+nmap tab :tabnext<CR>
+nmap <s-tab> :tabprevious<CR>
+nmap <leader>x :q!<CR>
 
 " quicky
-nmap <leader>e :Explore<CR>
+nmap <c-n> :Explore<CR>
 nmap <c-s> :w!<CR>
-nmap <leader>q :q!<CR>
-nmap <leader>h :nohl<CR>
+nmap <Esc> :nohl<CR>
 nmap <leader>c :tabclose<CR>
