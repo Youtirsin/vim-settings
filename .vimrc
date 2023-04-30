@@ -56,4 +56,4 @@ nmap <leader>x :q!<CR>
 nmap <c-n> :Explore<CR>
 nmap <c-s> :w!<CR>
 nmap <Esc> :nohl<CR>
-nmap <leader>c :tabclose<CR>
+nmap ; :

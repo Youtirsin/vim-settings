@@ -29,6 +29,7 @@
 
         // quicky
         { "before": [ "<Esc>"], "commands": [ ":nohl" ] },
+        { "before": [ ";"], "commands": [ ":" ] },
     ],
     "vim.handleKeys": {
         "<C-y>": false,
