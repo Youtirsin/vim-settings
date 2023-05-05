@@ -48,7 +48,7 @@ nmap <c-left> :vertical resize -2<CR>
 nmap <c-right> :vertical resize +2<CR>
 
 " navigate tabs
-nmap tab :tabnext<CR>
+nmap <tab> :tabnext<CR>
 nmap <s-tab> :tabprevious<CR>
 nmap <leader>x :q!<CR>
 
