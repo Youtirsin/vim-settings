@@ -55,5 +55,5 @@ nmap <leader>x :q!<CR>
 " quicky
 nmap <c-n> :Explore<CR>
 nmap <c-s> :w!<CR>
-nmap <Esc> :nohl<CR>
+nmap <leader>h :nohl<CR>
 nmap ; :
