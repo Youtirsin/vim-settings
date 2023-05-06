@@ -25,11 +25,10 @@
         // navigate tabs
         { "before": [ "<tab>"], "commands": [ ":bnext" ] },
         { "before": [ "<S-tab>"], "commands": [ ":bprevious" ] },
-        { "before": [ "<Leader>", "x"], "commands": [ ":q!" ] },
 
         // quicky
         { "before": [ "<Esc>"], "commands": [ ":nohl" ] },
-        { "before": [ ";"], "commands": [ ":" ] },
+        { "before": [ "<Leader>", "q"], "commands": [ ":q!" ] },
     ],
     "vim.handleKeys": {
         "<C-y>": false,

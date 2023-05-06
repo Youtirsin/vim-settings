@@ -50,10 +50,9 @@ nmap <c-right> :vertical resize +2<CR>
 " navigate tabs
 nmap <tab> :tabnext<CR>
 nmap <s-tab> :tabprevious<CR>
-nmap <leader>x :q!<CR>
 
 " quicky
 nmap <c-n> :Explore<CR>
+nmap <leader>q :q!<CR>
 nmap <c-s> :w!<CR>
 nmap <leader>h :nohl<CR>
-nmap ; :
