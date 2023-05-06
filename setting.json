@@ -1,33 +1,38 @@
 {
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.leader": "<space>",
-  "vim.normalModeKeyBindingsNonRecursive": [
-      // better window navigation
-      { "before": [ "<C-h>"], "after": [ "<C-w>", "h" ] },
-      { "before": [ "<C-j>"], "after": [ "<C-w>", "j" ] },
-      { "before": [ "<C-k>"], "after": [ "<C-w>", "k" ] },
-      { "before": [ "<C-l>"], "after": [ "<C-w>", "l" ] },
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // better window navigation
+        { "before": [ "<C-h>"], "after": [ "<C-w>", "h" ] },
+        { "before": [ "<C-j>"], "after": [ "<C-w>", "j" ] },
+        { "before": [ "<C-k>"], "after": [ "<C-w>", "k" ] },
+        { "before": [ "<C-l>"], "after": [ "<C-w>", "l" ] },
+        // window management
+        { "before": [ "<C-w>", "q"], "commands": [ ":q" ] },
+        { "before": [ "<C-w>", "s"], "commands": [ ":sp" ] },
+        { "before": [ "<C-w>", "v"], "commands": [ ":vsp" ] },
 
-      // resize with arrows
-      // not working for now
-      { "before": [ "<C-Up>"], "commands": [ ":resize -2" ] },
-      { "before": [ "<C-Down>"], "commands": [ ":resize +2" ] },
-      { "before": [ "<C-Left>"], "commands": [ ":vertical resize -2" ] },
-      { "before": [ "<C-Right>"], "commands": [ ":vertical resize +2" ] },
+        // resize with arrows
+        // not working for now
+        { "before": [ "<C-Up>"], "commands": [ ":resize -2" ] },
+        { "before": [ "<C-Down>"], "commands": [ ":resize +2" ] },
+        { "before": [ "<C-Left>"], "commands": [ ":vertical resize -2" ] },
+        { "before": [ "<C-Right>"], "commands": [ ":vertical resize +2" ] },
 
-      // navigate tabs
-      { "before": [ "<S-l>"], "commands": [ ":bnext" ] },
-      { "before": [ "<S-h>"], "commands": [ ":bprevious" ] },
+        // navigate tabs
+        { "before": [ "<tab>"], "commands": [ ":bnext" ] },
+        { "before": [ "<S-tab>"], "commands": [ ":bprevious" ] },
+        { "before": [ "<Leader>", "x"], "commands": [ ":q!" ] },
 
-      // quicky
-      { "before": [ "<Leader>", "q"], "commands": [ ":q!" ] },
-      { "before": [ "<Leader>", "h"], "commands": [ ":nohl" ] },
-  ],
-  "vim.handleKeys": {
-      "<C-y>": false,
-      "<C-f>": false,
-  },
+        // quicky
+        { "before": [ "<Esc>"], "commands": [ ":nohl" ] },
+        { "before": [ ";"], "commands": [ ":" ] },
+    ],
+    "vim.handleKeys": {
+        "<C-y>": false,
+        "<C-f>": false,
+    },
 }
