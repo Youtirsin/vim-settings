@@ -1,4 +1,4 @@
-" regular options
+" -------------- options -------------------------
 set cmdheight=2
 set fileencoding=utf-8
 set encoding=utf-8
@@ -23,8 +23,21 @@ set nowrap
 set scrolloff=8
 set sidescrolloff=8
 syntax on
+filetype plugin on
 
-" key maps
+" ------------ better experience -------------
+" find command
+set path+=** " find files recursively
+set wildmenu " show file matched menu
+
+" file tree ( better use vexplore
+let g:netrw_banner=0
+let g:netrw_winsize=25
+let g:netrw_liststyle=3
+let g:netrw_altv=1
+let g:netrw_browse_split=4
+
+" ------------- key maps -----------------
 " leader key
 map <space> <Nop>
 let g:mapleader = " "
