@@ -30,8 +30,12 @@
         { "before": [ "<Esc>"], "commands": [ ":nohl" ] },
         { "before": [ "<Leader>", "q"], "commands": [ ":q" ] },
     ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        { "before": [ "<Leader>", "y"], "after": [ "\"", "+", "y" ] },
+    ],
     "vim.handleKeys": {
         "<C-y>": false,
         "<C-f>": false,
+        "<C-v>": false,
     },
 }
