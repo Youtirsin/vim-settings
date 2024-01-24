@@ -29,9 +29,11 @@
         // quicky
         { "before": [ "<Esc>"], "commands": [ ":nohl" ] },
         { "before": [ "<Leader>", "q"], "commands": [ ":q" ] },
+        { "before": [ "q", "w"], "after": [ "\"", "+" ] },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         { "before": [ "<Leader>", "y"], "after": [ "\"", "+", "y" ] },
+        { "before": [ "q", "w"], "after": [ "\"", "+" ] },
     ],
     "vim.handleKeys": {
         "<C-y>": false,
