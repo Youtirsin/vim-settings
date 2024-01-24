@@ -69,3 +69,7 @@ nmap <c-n> :Explore<CR>
 nmap <leader>q :q<CR>
 nmap <c-s> :w<CR>
 nmap <leader>h :nohl<CR>
+
+nmap qw "+
+vmap qw "+
+vmap <leader>y "+y
