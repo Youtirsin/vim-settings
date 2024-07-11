@@ -1,2 +1,2 @@
-# vscode-vim-setting
- my preferred vscode vim setting.
+# vim-setting
+ my preferred vim settings for vim, vscode, idea.
