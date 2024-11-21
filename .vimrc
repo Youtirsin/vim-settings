@@ -68,7 +68,7 @@ nmap <s-tab> :tabprevious<CR>
 nmap <c-n> :Explore<CR>
 nmap qq :q<CR>
 nmap <c-s> :w<CR>
-nmap <leader>h :nohl<CR>
+nmap <Esc> :nohl<CR>
 
 nmap qw "+
 vmap qw "+
