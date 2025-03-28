@@ -32,11 +32,10 @@
         { "before": [ "q", "w"], "after": [ "\"", "+" ] },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
-        { "before": [ "<Leader>", "y"], "after": [ "\"", "+", "y" ] },
+        { "before": [ "<C-y>"], "after": [ "\"", "+", "y" ] },
         { "before": [ "q", "w"], "after": [ "\"", "+" ] },
     ],
     "vim.handleKeys": {
-        "<C-y>": false,
         "<C-f>": false,
         "<C-v>": false,
     },
