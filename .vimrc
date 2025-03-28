@@ -72,4 +72,4 @@ nmap <Esc> :nohl<CR>
 
 nmap qw "+
 vmap qw "+
-vmap <leader>y "+y
+vmap <c-y> "+y
